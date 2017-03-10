@@ -1,0 +1,62 @@
+.board{
+	position: absolute;
+	padding-top: 40px;
+	padding-left: 450px;
+
+}
+
+div{
+
+	font-family: Calibri;
+	font-size: 48px;
+}
+
+.board{
+	position: absolute;!important;
+	align-items: center;
+}
+
+body {
+	display: inline;
+	background-color: black;
+}
+
+div.row
+{
+	clear: both;
+	height: auto;
+}
+
+div.space
+{
+	cursor: pointer;
+	height: 60px;
+	width: 60px;
+	border: 1px;
+	border-style: solid;
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	display: inline;
+}
+
+div.black
+{
+	background-color: moccasin;
+	
+}
+
+div.white
+{
+	background-color: sienna;
+}
+
+div.piece-hover
+{
+	background-color: #ff6633;
+}
+
+div.piece-dropped
+{
+	background-color: #ccffff;
+}
